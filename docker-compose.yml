@@ -1,6 +1,7 @@
 version: '3'
 
 services:
+  mem_limit: 512m
   bot:
     build: .
     container_name: bot
